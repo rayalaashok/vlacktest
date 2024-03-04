@@ -1,4 +1,4 @@
-import {Data} from './FeaturesData';
+import {Data} from './FeaturesData.tsx';
 
 export default function FeatureCard (){
     return (

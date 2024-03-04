@@ -1,8 +1,8 @@
 
 import './App.css';
 
-import HowWeWorkPage from './home/howwework/HowWeWorkPage';
-import FeaturePage from './home/features/FeaturePage';
+import HowWeWorkPage from './components/home/howwework/HowWeWorkPage';
+import FeaturePage from './components/home/features/FeaturePage';
 
 
 function App() {

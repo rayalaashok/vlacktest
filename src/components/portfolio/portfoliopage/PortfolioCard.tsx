@@ -2,7 +2,7 @@ export default function PortfolioCard({ item }) {
   return (
     <div className="flex flex-col gap-3">
       <img
-        className="border-x-[15px] border-y-[38px] w-[545px] h-[317px] object-contain object-center"
+        className="border-x-[39px] border-y-[30px] w-[545px] h-[317px] object-contain object-center"
         style={{
           borderImage: `${item.border}`,
         }}

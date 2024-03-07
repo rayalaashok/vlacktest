@@ -7,6 +7,7 @@ import DesignCase from "./components/designcasestudies/DesignCase";
 import Blog from "./components/blog/Blog";
 import Portfolio from "./components/portfolio/Portfolio";
 import Policy from "./components/policy/policy";
+import ContactUs from "./components/contactus/ContactUs";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <DesignCase />
       <Blog />
       <Portfolio />
+      <ContactUs />
       <Policy />
     </div>
   );

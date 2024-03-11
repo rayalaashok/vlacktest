@@ -1,4 +1,4 @@
-import Button from "./Button";
+
 import PricingList from "./PricingList";
 export default function PricingCard({ item, isSelected, onClick }) {
   const handleClick = () => {

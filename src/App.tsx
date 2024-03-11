@@ -1,29 +1,16 @@
-import './App.css';
-import ContactUsPage from './components/contactus/ContactUsPage';
-// import Readblog from './components/readblog/Readblog';
-// import Features from './components/Features/Features'
-// import HowWeWorkPage from './components/home/howwework/HowWeWorkPage';
-// import FeaturePage from './components/home/features/FeaturePage';
-// import Aboutus from './components/aboutus/Aboutus';
 
-
-
+import "./App.css";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Aboutus from "./components/aboutus/Aboutus.tsx";
 
 function App() {
-
   return (
-    <div className='w-screen '>
-
-      {/* <HowWeWorkPage/>
-      <FeaturePage />
-       <Aboutus />
-      <Features /> */}
-      {/* <Readblog /> */}
-      <ContactUsPage />
-      
-
-    </div>
-  )
+<BrowserRouter>
+    <Routes>
+        <Route path={'/'} element={<Aboutus/>}/>
+    </Routes>
+</BrowserRouter>
+  );
 }
 
 export default App;

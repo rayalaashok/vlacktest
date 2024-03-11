@@ -1,24 +1,14 @@
-import './App.css';
 
-import Features from './components/Features/Features'
-// import HowWeWorkPage from './components/home/howwework/HowWeWorkPage';
-// import FeaturePage from './components/home/features/FeaturePage';
-// import Aboutus from './components/aboutus/Aboutus';
-
+import "./App.css";
 
 function App() {
-
   return (
-    <div className='w-screen '>
-
-      {/* <HowWeWorkPage/> */}
-      {/* <FeaturePage /> */}
-      {/* <Aboutus /> */}
-      <Features />
-      
-
-    </div>
-  )
+<BrowserRouter>
+    <Routes>
+        <Route path={'/'} element={<Features/>}/>
+    </Routes>
+</BrowserRouter>
+  );
 }
 
 export default App;

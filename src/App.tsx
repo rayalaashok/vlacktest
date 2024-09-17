@@ -1,18 +1,16 @@
-import { useState } from 'react'
-import './App.css';
-import {useTranslation} from "react-i18next";
+
+import "./App.css";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Aboutus from "./components/aboutus/Aboutus.tsx";
 
 function App() {
-  const [count, setCount] = useState(0);
-    const { t } = useTranslation();
   return (
-      <div className={`mt-6 base_button`}>
-          <p>{t('welcome')}</p>
-          <p>{t('description')}</p>
-
-      </div>
-  )
+<BrowserRouter>
+    <Routes>
+        <Route path={'/'} element={<Aboutus/>}/>
+    </Routes>
+</BrowserRouter>
+  );
 }
 
-
-export default App
+export default App;
